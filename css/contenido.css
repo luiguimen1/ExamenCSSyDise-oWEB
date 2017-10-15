@@ -1,0 +1,85 @@
+body{
+    background: #000;
+    color: black;
+    font-size: 16px;
+    font-family: 'Cookie', cursive;
+}
+
+#contenido{
+    width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    width: 96%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding:2%;
+    background-color: #5b7989;
+    color:white;
+    border-radius: 10px 10px 0 0;
+}
+#titulo{
+    float: left;
+    font-size: 40px;
+    text-shadow: #02010a 2px 2px;
+}
+
+#Menu{
+    padding-right: 10px;
+    float: right;
+    text-shadow: #02010a 2px;
+    text-shadow: #02010a 2px 2px;
+    font-size: 25px;
+}
+#Menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer{
+    background-color: #C6d5c5;
+    border-radius: 0 0 10px 10px;
+}
+#pie{
+    width: 100%;
+    overflow: hidden;
+} 
+#pie div{
+    float: left;
+    width: 21%;
+    padding: 2%;
+}
+#pie div p{
+    font-size: 40px;
+    -webkit-margin-before: 0;
+}
+footer img{
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 480px){
+    #contenido{
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        width:100%;
+    }
+    #titulo{
+        text-align: center;
+        width: 100%;
+    }
+    #Menu{
+        width: 100%;
+    }
+    #Menu a{
+        width: 33%;
+        float: left;
+        text-align: center;
+    }
+    #pie div{
+        width: 100%;
+    }
+}

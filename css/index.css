@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/10/2017, 05:15:57 PM
+    Author     : Lic. Luis Eduardo Alvarez Meneses
+*/
+
+article{
+    box-sizing: border-box;
+    float:left;
+    height: 100%;
+    background-color: grey;
+    padding: 2%;
+    text-align: center;
+    height: 400px;
+}
+
+#columna1{
+    background: #82c3a6;
+    width: 100%;
+}
+img{
+    margin: 0 auto;
+    width: 90%;
+    height: 80%;
+    box-shadow: #000 2px 2px 2px;
+    border-radius: 10px;
+}
+
+#columna2{
+    width: 50%;
+    background: #d5c75f;
+    font-size: 20px;
+}
+#columna2 img{
+    transition: rotate,2s;   
+}
+#columna2 img:hover{
+    transform: rotate( 10deg );
+    box-shadow:none;
+}
+#columna3{
+    width: 50%;
+    background: #d5c75f;
+    font-size: 20px;
+}
+#columna3 img{
+    transition: transform, 1s;
+}
+#columna3 img:hover{
+    transform: translate3d(10px,-10px,0px);
+    box-shadow:none;
+}
+
+section p{
+    font-size: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+    #columna1{
+        width: 100%;
+        height: 250px;
+    }
+    #columna2{
+        width: 100%;
+        height: 250px;
+    }
+    #columna3{
+        width: 100%;
+        height: 250px;
+    }
+    section p{
+        font-size: 20px;
+    }
+}
