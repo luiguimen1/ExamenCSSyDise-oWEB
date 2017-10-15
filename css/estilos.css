@@ -1,9 +1,7 @@
-*
-{
-    margin:0;
-}
-
 body{
+
+}
+.cuerpo{
     background: #000;
     color: black;
     font-size: 16px;
@@ -11,7 +9,7 @@ body{
 }
 
 #wrapper{
-    width: 960px;
+    width: 964px;
     margin: 0 auto;
 }
 
@@ -68,11 +66,11 @@ img{
 #columna2{
     width: 50%;
     background: #d5c75f;
+    font-size: 20px;
 }
 #columna2 img{
     transition: rotate,2s;
-    height: 90%;
-    font-size: 20px;
+    height: 90%;    
 }
 #columna2 img:hover{
     transform: rotate( 10deg );
@@ -84,14 +82,35 @@ img{
     font-size: 20px;
 }
 #columna3 img{
-    transition: transform;
+    transition: transform, 1s;
     height: 90%;
 }
 #columna3 img:hover{
-    transform: translate3d(5px,-5px,0px);
+    transform: translate3d(10px,-10px,0px);
     box-shadow:none;
 }
 
+footer{
+    background-color: #C6d5c5;
+    border-radius: 0 0 10px 10px;
+}
+#pie{
+    width: 100%;
+    overflow: hidden;
+} 
+#pie div{
+    float: left;
+    width: 21%;
+    padding: 2%;
+}
+#pie div p{
+    font-size: 40px;
+    -webkit-margin-before: 0;
+}
+footer img{
+    width: 20px;
+    height: 20px;
+}
 
 @media screen and (max-width: 960px){
     #wrapper{
